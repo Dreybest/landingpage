@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+#header-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.navbar {
+	background-color: #1740814d;
+}
+
+
+
+#about {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ff0000;
+}
+
+#services {    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #000000;
+    text-decoration-color: white;
+}
+
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ff0000;
+}
+
+textarea {
+    resize: none;
+}
