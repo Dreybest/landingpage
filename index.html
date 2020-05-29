@@ -39,11 +39,7 @@
 
           		<ul class="navbar-nav">
 
-            		<!-- Home -->
-            		<li class="nav-item active">
-              			<a class="nav-link" href="index.html">Home</a>
-            		</li>
-
+            		
             		<!-- About -->
             		<li class="nav-item">
               			<a class="nav-link" href="#about">About</a>
@@ -75,14 +71,18 @@
     	<!-- Start About Us Section -->
     	<div id="about">
     		<h2>Dreybyte Digital Solutions</h2>
-    		<iframe width="415" height="315" src="https://www.youtube.com/embed/ND5jPuQnv2U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+            <div class="container-md">
+                <iframe src="https://www.youtube.com/embed/ND5jPuQnv2U"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" id="video" allowfullscreen></iframe>
+            </div>
     	</div>
 
     	<div id="services">
     		<div class="container">
-    			<h2>Our Services</h2>
-    			<ul class="services-list">
-    				<h5>Our Services Include: </h5>
+				<h2>Our Services</h2>
+
+				<h5>Our Services Include: </h5>
+
+    			<ul class="services-list">    				
 
     				<li>Repair of Laptop/Desktop Computer</li>
 
@@ -102,7 +102,7 @@
     		<div class="container">
     			<div class="col-lg-8 mb-4">
     				<h3>Contact Us</h3>
-    				<form id="form">
+    				<form method="GET" action="https://www.freecodecamp.com/email-submit" id="form">
     					<div class="control-group form-group">
     						<div class="control">
     							<label>Full Name:</label>
@@ -124,7 +124,7 @@
     						</div>
     					</div>
 
-    					<button type="submit" id="submit" href="https://www.freecodecamp.com/email-submit">Send Message</button>
+    					<input type="submit" id="submit" class="btn btn-primary">
 
     				</form>
 
@@ -135,8 +135,7 @@
     	</div>
 
     </main>
-
-    
-    
+        
 </body>
+
 </html>
