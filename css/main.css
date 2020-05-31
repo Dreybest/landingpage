@@ -1,12 +1,12 @@
 body {
-    background-color: #ffffff;
     padding-top: 54px;
 }
 
 @media (min-width: 992px) {
 	body {
 		padding-top: 56px;
-    }
+    }    
+    
 }
 
 #header-img {
@@ -23,7 +23,7 @@ body {
     display: block;
     text-align: center;
     padding: 75px 100px 50px 100px;
-    background-color: #ff0000;
+    background-color: #ff0000;    
 }
 
 .container {
